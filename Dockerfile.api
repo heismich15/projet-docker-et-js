@@ -5,7 +5,7 @@ RUN npm install -g json-server
 
 WORKDIR /app
 
-# Correction du chemin : on va chercher db.json dans le dossier api-http
+#  chercher db.json dans le dossier api-http
 COPY api-http/db.json .
 
 # Expose le port de l'API
